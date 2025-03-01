@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice no 11</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    body {
+        background-color: rgb(40, 100, 67);;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background-color:  white;
+       width: 30%;
+       margin: 0% auto;
+       border: 1px solid black; 
+      border-radius: 20px;
+      padding: 20px;
+      border: 1px solid black;
+      border-radius: 15px;
+      height: 50%;
+      border-radius: 15px;
+      /* margin-top: 50px; */
+
+
+      
+    }
+    h1 {
+      text-align: center;
+    }
+    button {
+      border: 1px solid;
+      border-radius: 30px;
+      background-color: rgb(40, 100, 67);
+      color: white;
+      padding: 10px;
+      font-weight: 500;
+      margin: 0% auto;
+      width: 50%;
+    }
+    Input {
+      /* width: 100%; */
+      height: 10px;
+    }
+    .main-icons {
+      opacity: 0.5;
+      text-align: center;
+      gap: 100px;
+      
+    }
+
+    .input-container {
+            position: relative;
+            width: 250px;
+        }
+
+        .input-container i {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: gray;
+        }
+
+        .input-container input {
+            width: 100%;
+            padding: 10px 10px 10px 35px; /* Left padding for icon space */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+  </style>
+  <body>
+    <form>
+      <h1>Register Here</h1>
+      <div class="main-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-google"></i>
+      </div>
+
+      <div class="input-container">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Name" />
+      </div>
+      <div class="input-container">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="Email" placeholder="Email" /></div>
+
+      <div class="input-container">
+        <i class="fa-solid fa-lock"></i>
+        <input type="Password" placeholder="Password" /></div>
+      <button>Register</button>
+    </form>
+  </body>
+</html>

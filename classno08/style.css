@@ -1,0 +1,20 @@
+#container {
+    text-align: center;
+    /* margin-block: 3px solid black ; */
+    width: 300px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 100px;
+}
+div:hover {
+    background-color: pink;
+    color: white;
+}
+button {
+    background-color: rgb(79, 30, 30);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
