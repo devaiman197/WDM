@@ -1,0 +1,25 @@
+.container {
+    
+    display: flex;
+    gap: 10px;
+
+}
+.main-1 {
+    width: 250px;
+    height: 280px;
+    background-color: black;
+    color: white;
+}
+.h1-1 {
+    /* padding-top: 10px; */
+}
+.date {
+    color: purple;
+    
+    
+
+    
+}
+.para {
+    /* margin-top: 50px; */
+}
